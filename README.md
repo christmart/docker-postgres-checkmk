@@ -10,7 +10,7 @@ docker-compose.yml:
 
 ```yaml
   postgres-checkmk:
-    image: postgres-checkmk
+    image: ghcr.io/christmart/docker-postgres-checkmk:main
     restart: always
     depends_on:
       - db
